@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+import(quantreg)
+importFrom("stats", "lm", "pchisq", "coef", "sd")
+S3method(print, QRank)
+S3method(print, QRank.heter)
